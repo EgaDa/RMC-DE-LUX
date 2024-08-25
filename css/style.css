@@ -423,7 +423,7 @@
     gap: 10px;
 }
 
-.new{
+.new {
     margin-bottom: 200px;
 }
 
@@ -527,13 +527,88 @@
     transition: 0.3s;
 }
 
-.new__link{
+.new__link {
     display: flex;
     justify-content: center;
 }
 
-.new__a:hover{
+.new__a:hover {
     background: var(--white);
     border: 1px solid var(--storke);
+    color: var(--blac100);
+}
+
+.mortgage{
+    margin-bottom: 200px;
+}
+
+.mortgage__h {
+    font-family: 'Medium', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.mortgage__p {
+    font-family: 'Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23.12px;
+    color: var(--black60);
+}
+
+.mortgage__inp {
+    border: 1px solid var(--storke);
+    height: 50px;
+    width: 350px;
+    padding-left: 12px;
+}
+
+.mortgage__canculator {
+    display: flex;
+    width: 790px;
+    height: 192px;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-right: 51px;
+}
+
+.mortgage__wrap{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.mortgage__info {
+    display: flex;
+    gap: 31px;
+    flex-wrap: wrap;
+    width: 467px;
+    height: 164px;
+}
+
+.mortgage__math {
+    font-family: 'Medium', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 36.13px;
+}
+
+.mortgage__line{
+    margin-right: 51px;
+    border: 1px solid var(--storke);
+}
+
+.mortgage__a{
+    color: var(--white);
+    background: var(--b100);
+    padding: 12px 70px;
+    transition: 0.3s;
+}
+
+.mortgage__a:hover{
+    border: 1px solid var(--blac100);
+    background: none;
     color: var(--blac100);
 }
