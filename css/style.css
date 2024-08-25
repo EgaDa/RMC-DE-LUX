@@ -330,7 +330,7 @@
     margin-bottom: 250px;
 }
 
-.services__warp{
+.services__warp {
     display: flex;
     align-items: start;
 }
@@ -340,12 +340,37 @@
     font-size: 55px;
     font-weight: 500;
     line-height: 70px;
-    text-align: left;
     width: 720px;
     text-align: start;
     margin-bottom: 50px;
 }
 
-.services__text{
-    
+.services__text,
+.services__text2 {
+    font-family: 'Regular', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34.68px;
+    text-align: left;
 }
+
+.servies__fal {
+    padding-right: 2.5px;
+    background: var(--b100);
+    border-radius: 50%;
+    padding: 7px;
+    color: var(--white);
+}
+
+.servies__p {
+    border: 1px solid var(--storke);
+    border-left: none;
+    padding: 41px 37px 39px 0;
+}
+
+.servies__p2 {
+    border: 1px solid var(--storke);
+    border-right: none;
+    padding: 41px 0 39px 20px;
+}
+
