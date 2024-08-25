@@ -417,8 +417,123 @@
     border: 1px solid var(--storke);
 }
 
-.why__wrap{
+.why__wrap {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+}
+
+.new{
+    margin-bottom: 200px;
+}
+
+.new__left,
+.new__right {
+    background: none;
+    color: var(--blac100);
+    border: 1px solid var(--blac100);
+    border-radius: 50%;
+    padding: 17px 18px;
+    font-size: 10px;
+    transition: 0.4s;
+}
+
+.new__left:hover,
+.new__right:hover {
+    background: var(--blac100);
+    color: var(--white);
+}
+
+.new__h {
+    font-family: 'Medium', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 70px;
+    text-align: left;
+}
+
+.new__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
+.new__btn {
+    gap: 8px;
+}
+
+.new__wrap {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.new__card {
+    position: relative;
+    flex-wrap: wrap;
+    width: 467px;
+    height: 600px;
+    background: url(../img/new_img1.png) no-repeat center left/cover;
+    margin-bottom: 60px;
+}
+
+.new__text {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+}
+
+.new__h3 {
+    font-family: 'SemiBold', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 50.58px;
+    text-align: left;
+    color: var(--white);
+}
+
+.new__p {
+    font-family: 'Medium', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28.9px;
+    text-align: left;
+    color: var(--white);
+}
+
+.new__like {
+    position: absolute;
+    right: 19px;
+    top: 20px;
+    color: var(--white);
+    transition: 0.3s;
+}
+
+.new__like:hover {
+    color: var(--red);
+    border: none;
+}
+
+.new__a {
+    font-family: 'SemiBold', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24.57px;
+    text-align: left;
+    color: var(--white);
+    background: var(--b100);
+    padding: 12px 60px;
+    transition: 0.3s;
+}
+
+.new__link{
+    display: flex;
+    justify-content: center;
+}
+
+.new__a:hover{
+    background: var(--white);
+    border: 1px solid var(--storke);
+    color: var(--blac100);
 }
