@@ -538,7 +538,7 @@
     color: var(--blac100);
 }
 
-.mortgage{
+.mortgage {
     margin-bottom: 200px;
 }
 
@@ -575,7 +575,7 @@
     margin-right: 51px;
 }
 
-.mortgage__wrap{
+.mortgage__wrap {
     display: flex;
     margin-bottom: 40px;
 }
@@ -595,20 +595,70 @@
     line-height: 36.13px;
 }
 
-.mortgage__line{
+.mortgage__line {
     margin-right: 51px;
     border: 1px solid var(--storke);
 }
 
-.mortgage__a{
+.mortgage__a {
     color: var(--white);
     background: var(--b100);
     padding: 12px 70px;
     transition: 0.3s;
 }
 
-.mortgage__a:hover{
+.mortgage__a:hover {
     border: 1px solid var(--blac100);
     background: none;
     color: var(--blac100);
+}
+
+.question {
+    margin-bottom: 200px;
+}
+
+.question__wrap {
+    display: flex;
+    justify-content: space-around;
+    background: var(--blue);
+}
+
+.img {
+    width: 588px;
+    height: 699px;
+}
+
+.question__info {
+    width: 588px;
+    height: 579px;
+    margin: 60px 240px 60px 60px;
+}
+
+.question__h {
+    font-family: 'Medium', sans-serif;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 70px;
+    padding-bottom: 50px;
+}
+
+.question__inp {
+    border: none;
+    border-bottom: 2px solid var(--storke);
+    font-family: 'Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26.01px;
+    text-align: left;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 30px;
+    outline: none;
+    background: none;
+}
+
+.question__list {
+    width: 407px;
+    height: 290px;
+    flex-direction: column;
 }
